@@ -11,13 +11,18 @@ public class HelloController {
         return "Привет от Spring Boot! \uD83D\uDE80";
     }
 
-    @GetMapping ("/greet/{name}")
+    @GetMapping("/greet/{name}")
     public String greetByName(@PathVariable String name) {
         return "Привет, " + name + "! Добро пожаловать в Spring!";
     }
 
-    @GetMapping ("/test")
+    @GetMapping("/test")
     public String test() {
         return "Это тестовая страница!";
+    }
+
+    @GetMapping("/github")
+    public String helloGitHub() {
+        return "Welcome to GitHub World!";
     }
 }
