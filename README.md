@@ -16,3 +16,5 @@
 1. Клонируй репозиторий
 2. Запусти `DemoApplication.java`
 3. Открой http://localhost:8080/hello
+
+Hi from My home !
